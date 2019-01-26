@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="default">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+</html>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-Hello-Endera" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/01/26/Hello-Endera/" class="article-date">
+  <time datetime="2019-01-26T08:32:05.000Z" itemprop="datePublished">2019-01-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/01/26/Hello-Endera/">Hello, Endera</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/01/26/Hello-Endera/" data-id="cjrd7wt3n0000d8wdskn5zzv7" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Nice-Hexo" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/01/26/Nice-Hexo/" class="article-date">
+  <time datetime="2019-01-26T08:27:47.000Z" itemprop="datePublished">2019-01-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/01/26/Nice-Hexo/">Nice, Hexo</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/01/26/Nice-Hexo/" data-id="cjrd7wt420002d8wdkm88agmi" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Hello-Hexo" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/01/26/Hello-Hexo/" class="article-date">
+  <time datetime="2019-01-26T04:07:57.000Z" itemprop="datePublished">2019-01-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/01/26/Hello-Hexo/">Hello, Hexo</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="第六章-会话管理"><a href="#第六章-会话管理" class="headerlink" title="第六章 会话管理"></a>第六章 会话管理</h1><h5 id="1-容器如何知道客户是谁？"><a href="#1-容器如何知道客户是谁？" class="headerlink" title="1. 容器如何知道客户是谁？"></a>1. 容器如何知道客户是谁？</h5><p>HTTP协议使用的是无状态连接。客户浏览器与服务器建立连接，发出请求，得到响应，然后关闭连接。换句话说，连接只为一个请求/响应存在。由于连接不会持久保留，所以容器认不出做第二个请求的客户和做前一个请求的客户是同一个客户。对容器而言，<strong>每一个请求都来自于一个新的客户</strong>。所以，客户需要一个唯一的ID去让服务器识别客户，这就是cookie。容器会生成一个唯一的会话ID，并通过这个响应把它返回给客户。<strong>客户再在以后的每一个请求中发回这个会话ID</strong>。容器看到ID后，就会找到匹配的会话，并把这个会话与请求关联。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">浏览器-&gt;&gt;web容器: 请求“dark”</span><br><span class="line">web容器-&gt;&gt;HttpSession ID#42: new</span><br><span class="line">web容器-&gt;&gt;HttpSession ID#42: setAttribute(&quot;dark&quot;)</span><br><span class="line">web容器-&gt;&gt;浏览器: 响应，ID42</span><br><span class="line">浏览器-&gt;&gt;web容器: 请求，“ale”，ID42</span><br><span class="line">web容器-&gt;&gt;HttpSession ID#42: “ale”，ID42(HttpServletRequest)</span><br></pre></td></tr></table></figure>
+<hr>
+<h5 id="2-客户和容器如何交换会话信息？"><a href="#2-客户和容器如何交换会话信息？" class="headerlink" title="2. 客户和容器如何交换会话信息？"></a>2. 客户和容器如何交换会话信息？</h5><p>容器必须以某种方式吧会话ID作为响应的一部分交给客户，而客户必须把会话ID作为请求的一部分发回。最简单而且最常用的方式是通过cookie交换这个会话ID信息。最棒的是：<strong>容器几乎会做cookie的所有工作！</strong><br>你确实必须告诉容器想创建或使用一个会话，但是除此之外，生成会话ID、创建新的cookie对象、把会话ID放到cookie中、把cookie设置为响应的一部分等等工作都将由容器负责。对于后续的请求，容器会从请求中的cookie得到会话ID，将这个会话与一个现有的会话匹配，并把会话与当前请求关联。</p>
+<h6 id="在响应中-发送-一个会话cookie或从请求-得到-会话ID："><a href="#在响应中-发送-一个会话cookie或从请求-得到-会话ID：" class="headerlink" title="在响应中++发送++一个会话cookie或从请求++得到++会话ID："></a>在响应中++发送++一个会话cookie或从请求++得到++会话ID：</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">HttpSession session = request.getSession();</span><br></pre></td></tr></table></figure>
+<p>IF （请求包含一个会话ID cookie）<strong>找到与该ID匹配的会话</strong> ELSE IF （没有会话ID cookie OR 没有与此会话ID匹配的当前会话）<strong>创建一个新会话。</strong></p>
+<h2 id="cookie的所有工作都在后台进行。"><a href="#cookie的所有工作都在后台进行。" class="headerlink" title="cookie的所有工作都在后台进行。"></a>cookie的所有工作都在后台进行。</h2><h5 id="3-如果用户不接受cookie呢？"><a href="#3-如果用户不接受cookie呢？" class="headerlink" title="3. 如果用户不接受cookie呢？"></a>3. 如果用户不接受cookie呢？</h5><p>如果你的应用相当依赖于会话，就需要另外一种方法让客户和容器交换会话ID信息。幸运的是，容器对拒绝cookie的客户也留有一手，但是你要为此多做些工作。如果你在请求上调用getSession()，容器就会尝试使用cookie。如果没有启用cookie，这说明客户不会加入会话。换句话说，<br><strong>会话的isNew()方法总会返回true。</strong></p>
+<h6 id="禁用cookie的客户会忽略”Set-Cookie”响应首部"><a href="#禁用cookie的客户会忽略”Set-Cookie”响应首部" class="headerlink" title="禁用cookie的客户会忽略”Set-Cookie”响应首部"></a>禁用cookie的客户会忽略”Set-Cookie”响应首部</h6><p>如果客户不接受cookie，你不会得到异常。没有警告，没有提示，没人想告诉你想与这个客户建立会话的企图没有得逞。实际上，这只是意味着客户会忽略你用会话ID设置cookie的企图。在你的代码中，如果没有使用URL重写，这意味着getSession()总会返回一个新会话。<br><strong>（也就是说，在这个会话上调用isNew()是总会返回”true”）</strong><br>但客户不会发回一个带有会话ID cookie首部的请求。</p>
+<h6 id="URL-重写：一条后路"><a href="#URL-重写：一条后路" class="headerlink" title="++URL++重写：一条后路"></a>++URL++重写：一条后路</h6><p>如果客户不接受cookie，可以把URL重写作为一条后路。假设你的做法得当，URL重写就总能起作用，客户并不关心具体发生了什么，也不会采取任何行动力禁止URL重写。要记住，我们的目的是让客户和容器交换会话ID信息。要交换会话ID，来回传递cookie是最简单的方法，但是如果不能把ID放在一个cookie中，又能把它放在哪里呢？URL重写能取得置于cookie中的会话ID，并把会话ID附加到访问应用的各个URL的最后。<br>如<a href="http://www.wickedlysmart.com/BeerTest.do;jsessionid=0AAB6CBDE415，在响应发回的HTML中，把会话ID增加到所有URL的最后。" target="_blank" rel="noopener">http://www.wickedlysmart.com/BeerTest.do;jsessionid=0AAB6CBDE415，在响应发回的HTML中，把会话ID增加到所有URL的最后。</a><br>会话ID放在请求URL的最后作为“额外”信息返回（不一定用分号作为分隔符，不同开发商可能采用不同的分隔符）。<br><strong>如果不能用cookie，而且只有告诉响应要用++URL++编码，URL重写才会生效。</strong>可使用如下代码使用sendRedirect()的URL重写：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">response.sendRedirectURL(&quot;/BeerTest.do&quot;);</span><br></pre></td></tr></table></figure></p>
+<p><strong>并不能对静态HTML页面使用URL重写。</strong><br>页面必须是动态生成的，如JSP。</p>
+<hr>
+<h5 id="4-如何删除会话？"><a href="#4-如何删除会话？" class="headerlink" title="4. 如何删除会话？"></a>4. 如何删除会话？</h5><p>我们希望，如果一个会话太长时间不活动，容器能把它识别出来，并撤销这个会话。当然，必须告诉容器“太长”的时间含义是什么。20分钟足够长吗？一个小时呢？一天呢？（可能我们有办法告诉容器“太长”是多长）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">sequenceDiagram</span><br><span class="line">Diane-&gt;&gt;Web容器: “dark”</span><br><span class="line">Web容器-&gt;&gt;ServletA: 创建一个新线程</span><br><span class="line">ServletA-&gt;&gt;HttpSessionA ID#343: 建立一个新会话</span><br><span class="line">Diane-&gt;&gt;Web容器: Diane神秘消失</span><br><span class="line">Web容器-&gt;&gt;HttpSessionA ID#343: 容器检查会话状态</span><br><span class="line">Web容器-&gt;&gt;HttpSessionA ID#343: 20分钟时间太长，撤销ID343的HttpSession</span><br></pre></td></tr></table></figure>
+<h6 id="关键的HttpSession方法"><a href="#关键的HttpSession方法" class="headerlink" title="关键的HttpSession方法"></a>关键的HttpSession方法</h6><table>
+<thead>
+<tr>
+<th>方法名</th>
+<th>他做什么 </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>getCreationTime()</td>
+<td>返回第一次创建会话的时间</td>
+</tr>
+<tr>
+<td>getLastAccessedTime()</td>
+<td>返回容器最后一次得到包含这个会话ID的请求后过去了多长时间（毫秒数）</td>
+</tr>
+<tr>
+<td>setMaxInactiveInterval()</td>
+<td>指定对于这个会话客户请求的最大间隔时间（秒数）</td>
+</tr>
+<tr>
+<td>getMaxInactiveInterval()</td>
+<td>返回对于这个会话客户请求的最大间隔时间（秒数）</td>
+</tr>
+<tr>
+<td>invalidate()</td>
+<td>结束会话。当前存储在这个会话中的所有会话属性也会解除绑定</td>
+</tr>
+</tbody>
+</table>
+<p>你也可以在DD中配置会话超时，单位为<strong>分钟</strong>：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;web-app ...&gt;</span><br><span class="line">    &lt;servlet&gt;</span><br><span class="line">    ...</span><br><span class="line">    &lt;/servlet&gt;</span><br><span class="line">    &lt;session-config&gt;</span><br><span class="line">        &lt;session-timeout&gt;15&lt;/session-timeout&gt;</span><br><span class="line">    &lt;/session-config&gt;</span><br><span class="line">&lt;/web-app&gt;</span><br></pre></td></tr></table></figure></p>
+<p>也可以在Servlet中设置一个特定会话的会话超时<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">session.setMaxInactiveInterval(20*60);</span><br></pre></td></tr></table></figure></p>
+<p>这个方法的参数以<strong>秒</strong>为单位，所以这表示如果客户经过20*60秒，也就是20分钟没有对此做任何请求，就杀死这个会话。</p>
+<hr>
+<h5 id="与会话相关的监听者"><a href="#与会话相关的监听者" class="headerlink" title="与会话相关的监听者"></a>与会话相关的监听者</h5><table>
+<thead>
+<tr>
+<th>场景</th>
+<th>监听者接口/方法</th>
+<th>事件类型</th>
+<th>通常由谁实现</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>你想知道有多少个并发用户。就是说，你想跟踪活动的会话。</td>
+<td>HttpSessionListener(javax.servlet.http)/sessionCreated/sessionDestroyed</td>
+<td>HttpSessionEvent</td>
+<td>其他类</td>
+</tr>
+<tr>
+<td>你想知道会话何时从一个VM迁移到另一个VM</td>
+<td>HttpSessionActivationListener(javax.servlet.http)/sessionDidActivate/sessionWillPassivate</td>
+<td>HttpSessionEvent</td>
+<td>属性类和其他类</td>
+</tr>
+<tr>
+<td>有一个属性类（这个类的对象要用作为一个属性值），而且你希望此类对象绑定到会话或从会话删除时得到通知。</td>
+<td>HttpSessionBindingListener(javax.servelt.http)/valueBound/valueUnbound</td>
+<td>HttpSessionBindingEvent</td>
+<td>属性类</td>
+</tr>
+<tr>
+<td>你想知道会话中什么时候增加、删除或替换会话属性</td>
+<td>HttpSessionAttributeListener(javax.servlet.http)/attributeAdded/attributeRemoved/attributeReplaced</td>
+<td>HttpSessionBindingEvent</td>
+<td>其他类</td>
+</tr>
+</tbody>
+</table>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/01/26/Hello-Hexo/" data-id="cjrd7wt3x0001d8wdq4arzbbu" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope="" itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/01/26/hello-world/" class="article-date">
+  <time datetime="2019-01-26T03:29:36.387Z" itemprop="datePublished">2019-01-26</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/01/26/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/01/26/hello-world/" data-id="cjrd7wt450003d8wddw6jf9ft" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+
+  
+    
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/01/">January 2019</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2019/01/26/Hello-Endera/">Hello, Endera</a>
+          </li>
+        
+          <li>
+            <a href="/2019/01/26/Nice-Hexo/">Nice, Hexo</a>
+          </li>
+        
+          <li>
+            <a href="/2019/01/26/Hello-Hexo/">Hello, Hexo</a>
+          </li>
+        
+          <li>
+            <a href="/2019/01/26/hello-world/">Hello World</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2019 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+
+
+  </div>
+</body>
+</html>
